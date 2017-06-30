@@ -17,10 +17,14 @@ A curated list of all the awesome articles, tutorials and video avaiable for Goo
 - [BigQuery Public Datasets](https://cloud.google.com/bigquery/public-data/)
 - [Top Open Datasets - Reddit List](http://www.reddit.com/r/bigquery/comments/2i0526/top_open_datasets_available_on_bigquery/)
 
-### Examples - Analysis
+### Examples - Google Analytics 360 & Firebase Analytics
 
 - [Official Google Analytics 360 Cookbook](https://support.google.com/analytics/answer/4419694?hl=en)
 - [Google Analytics 360 Cookbook by Tahir Fayyaz](https://github.com/tfayyaz/awesome-bigquery/blob/master/Cookbooks/Google%20Analytics%20Premium.md)
+- [How to do cross-platform analytics with Google BigQuery](https://cloud.google.com/blog/big-data/2017/04/how-to-do-cross-platform-analytics-with-google-bigquery)
+
+### Examples - Analysis
+
 - [HTTP Archive + BigQuery = Web Performance Answers](https://www.igvita.com/2013/06/20/http-archive-bigquery-web-performance-answers/)
 - [Sharing YouTube music on Twitter: Analytics using Freebase and BigQuery](http://apassant.net/2014/11/21/sharing-youtube-music-twitter-freebase-bigquery/)
 - [Predicting the future with Google BigQuery](http://nbviewer.ipython.org/gist/fhoffa/6459195)
@@ -43,5 +47,3 @@ A curated list of all the awesome articles, tutorials and video avaiable for Goo
 - [Chartio](http://www.chartio.com)
 - [Qlikview](http://www.qlik.com)
 - [Tableau](http://www.tableau.com)
-
-
