@@ -1,7 +1,7 @@
 Awesome BigQuery
 ================
 
-A curated list of all the awesome articles, tutorials and video avaiable online for Google BigQuery. Part of the [awesome awesomeness](https://github.com/bayandin/awesome-awesomeness) collections.
+A curated list of all the awesome articles, tutorials and video avaiable for Google BigQuery. Part of the [awesome awesomeness](https://github.com/bayandin/awesome-awesomeness) collections.
 
 ### Introduction
 
@@ -14,11 +14,13 @@ A curated list of all the awesome articles, tutorials and video avaiable online 
 
 ### Open Datasets
 
+- [BigQuery Public Datasets](https://cloud.google.com/bigquery/public-data/)
 - [Top Open Datasets - Reddit List](http://www.reddit.com/r/bigquery/comments/2i0526/top_open_datasets_available_on_bigquery/)
 
 ### Examples - Analysis
 
-- [Google Analytics Premium Cookbook by Tahir Fayyaz](https://github.com/tfayyaz/awesome-bigquery/blob/master/Cookbooks/Google%20Analytics%20Premium.md)
+- [Official Google Analytics 360 Cookbook](https://support.google.com/analytics/answer/4419694?hl=en)
+- [Google Analytics 360 Cookbook by Tahir Fayyaz](https://github.com/tfayyaz/awesome-bigquery/blob/master/Cookbooks/Google%20Analytics%20Premium.md)
 - [HTTP Archive + BigQuery = Web Performance Answers](https://www.igvita.com/2013/06/20/http-archive-bigquery-web-performance-answers/)
 - [Sharing YouTube music on Twitter: Analytics using Freebase and BigQuery](http://apassant.net/2014/11/21/sharing-youtube-music-twitter-freebase-bigquery/)
 - [Predicting the future with Google BigQuery](http://nbviewer.ipython.org/gist/fhoffa/6459195)
