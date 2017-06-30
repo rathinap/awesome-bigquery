@@ -301,24 +301,29 @@ In Tableau you need to use the as syntax for all select statements. eg. 'totals.
 
 ## past year of data in custom SQL. 
 
+```sql
 SELECT date, totals.visits, totals.pageviews, totals.transactions, totals.transactionRevenue
 FROM (TABLE_DATE_RANGE([78667059.ga_sessions_],
                       DATE_ADD(CURRENT_TIMESTAMP(), -1, 'YEAR'),
                       CURRENT_TIMESTAMP()))
 ORDER BY date ASC
+```
 
 ## past 90 days
 
+```sql
 SELECT date, totals.visits, totals.pageviews, totals.transactions, totals.transactionRevenue
 FROM (TABLE_DATE_RANGE([78667059.ga_sessions_],
                       DATE_ADD(CURRENT_TIMESTAMP(), -90, 'DAY'),
                       CURRENT_TIMESTAMP()))
 ORDER BY date ASC
+```
 
 ## set-up for the dynamic query
 
 ![](https://www.evernote.com/shard/s175/sh/53562c84-0f27-487a-b86b-e610bd3eb5fc/92abea58058370af0c49bb007bfd55fb/deep/0/Form%20and%20Create%20Parameter%20and%20Edit%20Custom%20SQL%20and%20Tableau%20-%20Book2.png)
 
+```sql
 SELECT 
   date as hit_date,
   trafficSource.medium as trafficSource_medium, 
@@ -330,3 +335,4 @@ SELECT
   hits.type as hits_type
 FROM (TABLE_DATE_RANGE([86276908.ga_sessions_], TIMESTAMP(<Parameters.bigquery_start_date>), TIMESTAMP(<Parameters.bigquery_end_date>))) 
 WHERE hits.hitNumber = 1 AND hits.type = 'PAGE'
+```
