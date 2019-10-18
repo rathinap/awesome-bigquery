@@ -1,7 +1,7 @@
 Awesome BigQuery
 ================
 
-A curated list of all the awesome articles, tutorials and video avaiable for Google BigQuery. Part of the [awesome awesomeness](https://github.com/bayandin/awesome-awesomeness) collections.
+A curated list of all the awesome articles, tutorials and video available for Google BigQuery. Part of the [awesome awesomeness](https://github.com/bayandin/awesome-awesomeness) collections.
 
 ### Introduction
 
