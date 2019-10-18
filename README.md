@@ -47,3 +47,4 @@ A curated list of all the awesome articles, tutorials and video avaiable for Goo
 - [Chartio](http://www.chartio.com)
 - [Qlikview](http://www.qlik.com)
 - [Tableau](http://www.tableau.com)
+- [Sisense](http://www.sisense.com/data-connectors/google-bigquery)
